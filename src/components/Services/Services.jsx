@@ -9,7 +9,22 @@ const Services = () => {
             <h2>services</h2>
 
             <div className="container services_container">
-
+                <article className="service">
+                    <div className="service_head">
+                        <h3>Collaboration</h3>
+                    </div>
+                    <ul className="service_list">
+                        <li>
+                            <BiCheck className="service_list-icon" />
+                            As a dedicated developer, I am highly motivated to apply my skills and
+                            knowledge in an environment that has a positive impact on society.
+                            Specifically, I am passionate about web development for non-profit
+                            projects and organizations. I believe that technology can be a powerful
+                            tool for social change, and I am committed to using my abilities to contribute
+                            to meaningful causes.
+                        </li>
+                    </ul>
+                </article>
                 <article className="service">
                     <div className="service_head">
                         <h3>Web Development</h3>

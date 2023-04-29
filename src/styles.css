@@ -11,11 +11,11 @@
 
 :root {
   --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #6cb8eb;
-  --color-primary-variant: rgba(239, 241, 243, 0.4);
+  --color-bg-variant: #1d394e;
+  --color-primary: #e4ebf0;
+  --color-primary-variant: rgb(239, 241, 243);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgb(1, 217, 255);
   --transition: all 400ms ease;
 
   --container-width-lg: 75%;
