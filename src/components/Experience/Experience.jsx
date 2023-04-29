@@ -70,7 +70,7 @@ const Experience = () => {
             </article>
 
             <article className="experience_details">
-              <BsPatchCheckFill />
+            <BsPatchCheckFill className="experience_details-icon" />
               <div>
               <h4>MongoDB</h4>
                 <small className="text-light">Upper- Intermediate</small>
@@ -78,7 +78,7 @@ const Experience = () => {
             </article>
 
             <article className="experience_details">
-              <BsPatchCheckFill />
+            <BsPatchCheckFill className="experience_details-icon" />
               <div>
               <h4>Node.js</h4>
                 <small className="text-light">Intermediate</small>

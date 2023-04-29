@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import ME from '../../assets/catConstruction.jpg'
+import PHOTO from '../../assets/Selfie-Point.jpg'
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
         <h5 className="text-light">Full-Stack Developer in the Making</h5>
         <HeaderSocials/>
         <div className="me">
-          <img src={ME} alt="me"/>
+          <img src={PHOTO} alt="me"/>
         </div>
 
         <a href="#contact" className='scroll_down'>Scroll Down</a>
