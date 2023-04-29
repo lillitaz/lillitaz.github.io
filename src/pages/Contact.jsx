@@ -1,5 +1,3 @@
-import catConstruction from '../images/catConstruction.jpg';
-
 function Contact() {
 
     return (
