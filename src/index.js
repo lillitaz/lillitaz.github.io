@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 
 
 import Layout from './pages/Layout';
@@ -14,7 +14,7 @@ import 'flowbite/dist/flowbite.js';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,
