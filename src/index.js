@@ -1,44 +1,10 @@
-import React from 'react';
+import React from "react";
 import ReactDOM from 'react-dom/client';
-import { RouterProvider, createHashRouter } from 'react-router-dom';
-
-
-import Layout from './pages/Layout';
-import Home from './pages/Home';
-import Error from './pages/Error';
-
-import "./index.css";
-import 'flowbite/dist/flowbite.css';
-import 'flowbite/dist/flowbite.js';
-
-import About from './pages/About';
-import Contact from './pages/Contact';
-
-const router = createHashRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    errorElement: <Error />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-    ],
-  },
-]);
+import App from "./App";
+import "./styles.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <App />
 );
