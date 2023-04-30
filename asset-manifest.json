@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.eeb232e3.css",
-    "main.js": "/static/js/main.c3f71b94.js",
+    "main.js": "/static/js/main.2127dc60.js",
     "static/media/Selfie-Point.jpg": "/static/media/Selfie-Point.53d68488a03f87807aee.jpg",
     "static/media/chalks.jpg": "/static/media/chalks.07c0c320ad1292025bdb.jpg",
     "index.html": "/index.html",
     "main.eeb232e3.css.map": "/static/css/main.eeb232e3.css.map",
-    "main.c3f71b94.js.map": "/static/js/main.c3f71b94.js.map"
+    "main.2127dc60.js.map": "/static/js/main.2127dc60.js.map"
   },
   "entrypoints": [
     "static/css/main.eeb232e3.css",
-    "static/js/main.c3f71b94.js"
+    "static/js/main.2127dc60.js"
   ]
 }
