@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eeb232e3.css",
-    "main.js": "/static/js/main.e4b301ea.js",
+    "main.js": "/static/js/main.c2ebf0a4.js",
     "static/media/Selfie-Point.jpg": "/static/media/Selfie-Point.53d68488a03f87807aee.jpg",
     "static/media/chalks.jpg": "/static/media/chalks.07c0c320ad1292025bdb.jpg",
     "static/media/In-Progress.jpg": "/static/media/In-Progress.7a9d7a50a5a01cf50359.jpg",
@@ -9,10 +9,10 @@
     "static/media/nostalgia-games-preview.png": "/static/media/nostalgia-games-preview.c53459646e007f480dd1.png",
     "index.html": "/index.html",
     "main.eeb232e3.css.map": "/static/css/main.eeb232e3.css.map",
-    "main.e4b301ea.js.map": "/static/js/main.e4b301ea.js.map"
+    "main.c2ebf0a4.js.map": "/static/js/main.c2ebf0a4.js.map"
   },
   "entrypoints": [
     "static/css/main.eeb232e3.css",
-    "static/js/main.e4b301ea.js"
+    "static/js/main.c2ebf0a4.js"
   ]
 }
