@@ -17,7 +17,7 @@ const Portfolio = () => {
                     <h3>Portfolio Website with React</h3>
                     <div className='portfolio_item-cta'>
                         <a href="https://github.com/lillitaz/lillitaz.github.io" className='btn'>Link to the Repository</a>
-                        <a href="https://lilliweitzer.com" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                        <a href="/" className='btn btn-primary' rel="noopener noreferrer">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio_item'>
@@ -28,7 +28,7 @@ const Portfolio = () => {
                     <h3>Virtual-Pet Game with Java</h3>
                     <div className='portfolio_item-cta'>
                         <a href="https://github.com/lillitaz/virtual-pet-game" className='btn'>Link to the Repository</a>
-                        <a href="https://lilliweitzer.com/#contact" className='btn btn-primary' target='_blank' rel="noreferrer">Release: May 2023</a>
+                        <a href="#contact" className='btn btn-primary' rel="noopener noreferrer">Release: May 2023</a>
                     </div>
                 </article>
                 <article className='portfolio_item'>
