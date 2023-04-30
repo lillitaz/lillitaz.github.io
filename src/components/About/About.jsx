@@ -35,10 +35,11 @@ const About = () => {
                         {" "}
                         As a participant in a project-based training course in full stack development,
                         I have already successfully completed several projects and now want to apply and expand my knowledge in practice.
-                        I have very good knowledge of HTML, CSS, and JavaScript, as well as experience with the MERN stack. In my training,
-                        I have intensively dealt with the development of web applications and the creation of performant and maintainable code.
-                        Working with databases and handling various APIs is also familiar to me. Above all, I was able to deepen my skills in the
-                        area of higher-order functions in JavaScript and develop my love for clean and readable code.<br></br>
+                        I have a strong understanding of JavaScript and JS-based technologies, specifically the MERN stack.
+                        In my training, I have intensively dealt with the development of web applications and the creation of performant and maintainable code.
+                        Working with databases and handling various APIs is also familiar to me. I tried to sharpen my skills in using higher-order functions
+                        in JavaScript to write clean and readable code
+                        and currently expanding my skill set by learning Java and Python.<br></br>
                         <br></br>
                         My goal is working on web development projects for non-profits and associations.
                         These types of projects offer a unique opportunity to create websites
