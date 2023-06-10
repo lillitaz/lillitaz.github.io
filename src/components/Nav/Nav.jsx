@@ -18,7 +18,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href="/" onClick={() => scrollTo('home')} className={activeNav === 'home' ? 'active' : ''}><AiOutlineHome /></a>
+      <a href="/#" onClick={() => scrollTo('home')} className={activeNav === 'home' ? 'active' : ''}><AiOutlineHome /></a>
       <Link to="#about" onClick={() => scrollTo('about')} className={activeNav === 'about' ? 'active' : ''}><AiOutlineUser /></Link>
       <Link to="#experience" onClick={() => scrollTo('experience')} className={activeNav === 'experience' ? 'active' : ''}><BiBookAlt /></Link>
       <Link to="#services" onClick={() => scrollTo('services')} className={activeNav === 'services' ? 'active' : ''}><RiServiceLine /></Link>
