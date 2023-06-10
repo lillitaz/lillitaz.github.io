@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.eeb232e3.css",
-    "main.js": "/static/js/main.c2ebf0a4.js",
+    "main.css": "/static/css/main.113900be.css",
+    "main.js": "/static/js/main.808cd0ff.js",
     "static/media/Selfie-Point.jpg": "/static/media/Selfie-Point.53d68488a03f87807aee.jpg",
     "static/media/chalks.jpg": "/static/media/chalks.07c0c320ad1292025bdb.jpg",
     "static/media/In-Progress.jpg": "/static/media/In-Progress.7a9d7a50a5a01cf50359.jpg",
     "static/media/react-portfolio-website.png": "/static/media/react-portfolio-website.ce7a110387bf6ab9db00.png",
     "static/media/nostalgia-games-preview.png": "/static/media/nostalgia-games-preview.c53459646e007f480dd1.png",
     "index.html": "/index.html",
-    "main.eeb232e3.css.map": "/static/css/main.eeb232e3.css.map",
-    "main.c2ebf0a4.js.map": "/static/js/main.c2ebf0a4.js.map"
+    "main.113900be.css.map": "/static/css/main.113900be.css.map",
+    "main.808cd0ff.js.map": "/static/js/main.808cd0ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb232e3.css",
-    "static/js/main.c2ebf0a4.js"
+    "static/css/main.113900be.css",
+    "static/js/main.808cd0ff.js"
   ]
 }
