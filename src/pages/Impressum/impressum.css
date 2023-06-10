@@ -1,0 +1,8 @@
+.impressum_content {
+    display: grid;
+    gap: 1rem;
+  }
+  
+.impressum_details {
+    display: flex;
+  }
