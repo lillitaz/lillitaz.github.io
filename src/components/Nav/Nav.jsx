@@ -1,22 +1,31 @@
-import React from "react";
-import "./nav.css";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { BiBookAlt, BiMessageSquareDetail } from 'react-icons/bi';
 import { RiServiceLine, RiToolsFill } from 'react-icons/ri';
-import { useState } from 'react';
+import './nav.css';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('home')
+  const [activeNav, setActiveNav] = useState('home');
+
+  const scrollTo = (target) => {
+    const targetElement = document.getElementById(target);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+      setActiveNav(target);
+    }
+  };
+
   return (
     <nav>
-      <a href="/" onClick={() => setActiveNav('home')} className={activeNav === 'home' ? 'active' : ''}><AiOutlineHome /></a>
-      <a href="#about" onClick={() => setActiveNav('about')} className={activeNav === 'about' ? 'active' : ''}><AiOutlineUser /></a>
-      <a href="#experience" onClick={() => setActiveNav('experience')} className={activeNav === 'experience' ? 'active' : ''}><BiBookAlt /></a>
-      <a href="#services" onClick={() => setActiveNav('services')} className={activeNav === 'services' ? 'active' : ''}><RiServiceLine /></a>
-      <a href="#portfolio" onClick={() => setActiveNav('portfolio')} className={activeNav === 'portfolio' ? 'active' : ''}><RiToolsFill /></a>
-      <a href="#contact" onClick={() => setActiveNav('contact')} className={activeNav === 'contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
+      <a href="/" onClick={() => scrollTo('home')} className={activeNav === 'home' ? 'active' : ''}><AiOutlineHome /></a>
+      <Link to="#about" onClick={() => scrollTo('about')} className={activeNav === 'about' ? 'active' : ''}><AiOutlineUser /></Link>
+      <Link to="#experience" onClick={() => scrollTo('experience')} className={activeNav === 'experience' ? 'active' : ''}><BiBookAlt /></Link>
+      <Link to="#services" onClick={() => scrollTo('services')} className={activeNav === 'services' ? 'active' : ''}><RiServiceLine /></Link>
+      <Link to="#portfolio" onClick={() => scrollTo('portfolio')} className={activeNav === 'portfolio' ? 'active' : ''}><RiToolsFill /></Link>
+      <Link to="#contact" onClick={() => scrollTo('contact')} className={activeNav === 'contact' ? 'active' : ''}><BiMessageSquareDetail /></Link>
     </nav>
   );
 };
-  
+
 export default Nav;
