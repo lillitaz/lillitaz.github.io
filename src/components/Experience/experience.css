@@ -1,5 +1,5 @@
 .experience_container {
-    /* display: grid; */
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
@@ -20,12 +20,12 @@
   .experience_content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 1rem;
   }
   
   .experience_details {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
   }
   
   .experience_details-icon {

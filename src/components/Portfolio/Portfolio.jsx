@@ -28,7 +28,7 @@ const Portfolio = () => {
                     <h3>Virtual-Pet Game with Java</h3>
                     <div className='portfolio_item-cta'>
                         <a href="https://github.com/lillitaz/virtual-pet-game" className='btn'>Link to the Repository</a>
-                        <a href="#contact" className='btn btn-primary' rel="noopener noreferrer">Release: May 2023</a>
+                        <a href="#contact" className='btn btn-primary' rel="noopener noreferrer">Release: July 2023</a>
                     </div>
                 </article>
                 <article className='portfolio_item'>
