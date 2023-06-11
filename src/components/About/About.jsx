@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./about.css";
-import PHOTO from "../../assets/chalks.jpg";
+import PHOTO from "../../assets/about-graphic.jpg";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ const About = () => {
             <div className="container about_container">
                 <div className="about_me">
                     <div className="about_me-image">
-                        <img src={PHOTO} alt="About imge" />
+                        <img src={PHOTO} alt="About image" />
                     </div>
                 </div>
 

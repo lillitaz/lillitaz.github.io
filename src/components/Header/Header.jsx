@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import PHOTO from '../../assets/Selfie-Point.jpg'
+import PHOTO from '../../assets/intro-graphic.jpg';
 import HeaderSocials from "./HeaderSocials";
 import { Link } from "react-router-dom";
 
@@ -11,7 +11,7 @@ const Header = () => {
       targetElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  
+
   return(
     <header >
       <div className="container header_container">
@@ -20,7 +20,7 @@ const Header = () => {
         <h5 className="text-light">Full-Stack Developer in the Making</h5>
         <HeaderSocials/>
         <div className="me">
-          <img src={PHOTO} alt="me"/>
+          <img id="header-image" src={PHOTO} alt="me"/>
         </div>
         <Link to="#contact" className='scroll_down' onClick={() => scrollTo('contact')} >Scroll Down</Link>      
       </div>

@@ -38,6 +38,13 @@ header{
     overflow:hidden;
     padding: 12rem 1.5rem 1.5rem 1.5rem;
   }
+
+  #header-image {
+    border-radius: 3rem;
+    transform: rotate(-5deg);
+    width:92%;
+    margin-left: 0.8rem;
+  }
   
   /*----------Scroll Down--------*/
   .scroll_down{
