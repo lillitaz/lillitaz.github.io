@@ -2,8 +2,16 @@ import React from "react";
 import "./header.css";
 import PHOTO from '../../assets/Selfie-Point.jpg'
 import HeaderSocials from "./HeaderSocials";
+import { Link } from "react-router-dom";
 
 const Header = () => {
+  const scrollTo = (target) => {
+    const targetElement = document.getElementById(target);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  
   return(
     <header >
       <div className="container header_container">
@@ -14,9 +22,7 @@ const Header = () => {
         <div className="me">
           <img src={PHOTO} alt="me"/>
         </div>
-
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
-      
+        <Link to="#contact" className='scroll_down' onClick={() => scrollTo('contact')} >Scroll Down</Link>      
       </div>
     </header>
   );
