@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./about.css";
 import PHOTO from "../../assets/chalks.jpg";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { Link } from "react-router-dom";
 
 const About = () => {
+    const scrollTo = (target) => {
+      const targetElement = document.getElementById(target);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
     return (
         <section id="about">
             <h5>Get to Know</h5>
@@ -52,9 +60,7 @@ const About = () => {
                         like-minded individuals and working towards a common goal, I believe we can make a real
                         difference in the world.
                     </p>
-                    <a href="#contact" className="btn btn-primary">
-                        Get in Touch
-                    </a>
+                    <Link to="#contact" className="btn btn-primary" onClick={() => scrollTo('contact')} >Get in Touch</Link>
                 </div>
             </div>
         </section>
