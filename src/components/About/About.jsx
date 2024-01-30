@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./about.css";
 import PHOTO from "../../assets/about-graphic.jpg";
 import { FaAward } from "react-icons/fa";
@@ -21,7 +21,7 @@ const About = () => {
             <div className="container about_container">
                 <div className="about_me">
                     <div className="about_me-image">
-                        <img src={PHOTO} alt="About image" />
+                        <img src={PHOTO} alt="About Graphic" />
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@ const About = () => {
                         <article className="about_card">
                             <FaAward className="about_icon" />
                             <h5>Experience</h5>
-                            <small>0.75+ Years Experience</small>
+                            <small>1+ Years Experience</small>
                         </article>
 
                         <article className="about_card">
@@ -41,13 +41,13 @@ const About = () => {
                     </div>
                     <p>
                         {" "}
-                        As a participant in a project-based training course in full stack development,
-                        I have already successfully completed several projects and now want to apply and expand my knowledge in practice.
+                        After completing a project-based training course in full stack development,
+                        I have completed several projects and now want to apply and expand my knowledge in practice.
                         I have a strong understanding of JavaScript and JS-based technologies, specifically the MERN stack.
                         In my training, I have intensively dealt with the development of web applications and the creation of performant and maintainable code.
                         Working with databases and handling various APIs is also familiar to me. I tried to sharpen my skills in using higher-order functions
-                        in JavaScript to write clean and readable code
-                        and currently expanding my skill set by learning Java and Python.<br></br>
+                        in JavaScript to write clean and readable code.
+                        I expanded my skill set by learning Java and Python.<br></br>
                         <br></br>
                         My goal is working on web development projects for non-profits and associations.
                         These types of projects offer a unique opportunity to create websites
