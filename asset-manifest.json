@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.0135df3e.css",
-    "main.js": "/static/js/main.8867c0f6.js",
+    "main.js": "/static/js/main.81fcb382.js",
+    "static/media/about-graphic.jpg": "/static/media/about-graphic.07bc116f1feeca1c995b.jpg",
     "static/media/react-portfolio-website.png": "/static/media/react-portfolio-website.ce7a110387bf6ab9db00.png",
     "static/media/nostalgia-games-preview.png": "/static/media/nostalgia-games-preview.c53459646e007f480dd1.png",
-    "static/media/about-graphic.jpg": "/static/media/about-graphic.eab4f756d9d729deb8e1.jpg",
+    "static/media/intro-graphic.jpg": "/static/media/intro-graphic.eab4f756d9d729deb8e1.jpg",
     "static/media/virtual-games-graphic.jpg": "/static/media/virtual-games-graphic.b35de272206d00d17e1b.jpg",
-    "static/media/intro-graphic.jpg": "/static/media/intro-graphic.e37d9ae9a0443701a1bb.jpg",
     "index.html": "/index.html",
     "main.0135df3e.css.map": "/static/css/main.0135df3e.css.map",
-    "main.8867c0f6.js.map": "/static/js/main.8867c0f6.js.map"
+    "main.81fcb382.js.map": "/static/js/main.81fcb382.js.map"
   },
   "entrypoints": [
     "static/css/main.0135df3e.css",
-    "static/js/main.8867c0f6.js"
+    "static/js/main.81fcb382.js"
   ]
 }
