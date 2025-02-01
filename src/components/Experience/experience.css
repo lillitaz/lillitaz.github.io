@@ -1,13 +1,13 @@
 .experience_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 5rem;
   }
   
   .experience_container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
+    padding: 2rem 2rem;
+    border-radius: 3rem;
     border: 1px solid transparent;
     transition: var(--transition);
   }
@@ -20,18 +20,21 @@
   .experience_content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 1rem;
+    row-gap: 3rem;
   }
   
   .experience_details {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
   }
   
   .experience_details-icon {
-    margin-top: 6px;
+    font-size: 1.2rem; /* Adjust as needed */
     color: var(--color-primary);
+    margin-right: 0.5rem;
+    vertical-align: middle;
   }
+  
   
   /*---------Media Queries(Medium Devices)--------*/
   
@@ -45,7 +48,7 @@
       padding: 2.4rem;
     }
     .experience_content {
-      padding: 1rem;
+      padding: 2rem;
     }
   }
   /*---------Media Queries(SMALL Devices)--------*/
@@ -57,7 +60,7 @@
   
     .experience_container > div {
       width: 100%;
-      padding: 2rem 1rem;
+      padding: 2rem 2rem;
     }
   }
   

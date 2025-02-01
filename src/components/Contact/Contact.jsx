@@ -7,7 +7,7 @@ import { FaCalendarPlus } from 'react-icons/fa';
 const Contact = () => {
     return (
         <section id="contact">
-            <h5>Let's talk?</h5>
+            <h5>Let's connect</h5>
             <h2>Contact</h2>
             <div className="container contact_container">
 

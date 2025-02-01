@@ -17,7 +17,7 @@ class Impressum extends Component {
                 <br />
                 Elisabeth Weitzer, BA
                 <br />
-                1090 Wien
+                1190 Wien
                 <br />
                 Oesterreich <br />
               </article>
